@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #181719;
+    color: #ffffff;
+}
+
+.head-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+.head-ul {
+    display: flex; 
+    text-decoration: none;  
+    list-style: none;      
+}
+
+.head-li {
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+}
+
+#head-home {
+    border-bottom: 2px solid #ffffff ;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#head-p {
+    padding: 3px;
+    border-left: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+    border-right: #ffffff 1.4px solid;
+    border-top: #ffffff 1.4px solid;
+}
+
+main {
+    margin: 80px;
+    padding-bottom: 150px;
+    display: flex;
+}
+
+.main-box1 {
+    padding: 20% 8% 5% 0%;
+}
+
+#h2-main {
+    font-size: 48px;
+    line-height: 61px;
+    margin-bottom: 30px;
+    font-family: 'Lora', serif;
+}
+
+#p-main {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+small {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fas {
+    padding-left: 5px;
+    padding-left: 5px;
+    margin-top: 3px;
+}
+
+#photo1{
+    width: 100%;
+    height: auto;
+}
+
+.sticky {
+    position: absolute;
+    height: 160px;
+    width: 287px;
+    left: 837px;
+    top: 500px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#photo2-box {
+    width: 200px;
+    height: 72px;
+    display: flex;
+}
+
+#photo2 {
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+    padding: 15px;
+}
+#photo2-p1 {
+    font-size: 14px;
+    font-weight: 17px;
+}
+
+#photo2-p2 {
+    font-size: 12px;
+    font-weight: 14px;
+    color: #828282;
+    ;
+}
+
+.photo2-pdivs {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#photo2-p3 {
+    height: 62px;
+    width: 170px;
+    Size: 24px;
+    Line-height: 30px;
+    padding-left: 12px;
+    font-family: 'Lora', serif;
+}
+
+#footerp, #footerp b {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+/* #hamburger-icon {
+    margin: 0;
+    display: none;
+    cursor: pointer;
+}
+#hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+} */
+
+/* for mobile view */
+
+@media screen and (max-width: 700px) {
+    /* .head-ul-div {
+        display: none;
+    } */
+    .head-1 {        
+        margin: 50px 30px;
+    }
+    main {
+        flex-flow: column;
+    }
+        
+    
+    .main-box1 {
+        padding: 5% 0% 8% 0%;
+        width: 368px;
+    }
+    main {
+        margin: 30px;
+        padding-bottom: 150px;        
+    }
+    #p-main {
+        margin-bottom: 35px;
+    }
+    .sticky {
+        width: 300px;
+        height: 138px;        
+        left: 13%;
+        top: 80%;        
+    }            
+        
+    
+}
